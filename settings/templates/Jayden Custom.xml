@@ -1,0 +1,25 @@
+<templateSet group="Jayden Custom">
+  <template name="tdd" value="@Test$END$&#10;public void test() {&#10;    //given&#10;    &#10;    //when&#10;    //then&#10;    Assertions.assertThat().isTrue();&#10;}" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="//TODO $date$ $END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lgg" value="private static final Logger logger = Logger.getLogger($class$.class.getName());&#10;" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="leaf" value="&lt;!DOCTYPE html&gt;&#10;&lt;html xmlns:th=&quot;http://www.thymeleaf.org&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;$END$Hello&lt;/title&gt;&#10;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;p th:text=&quot;'안녕하세요. ' + ${data}&quot;&gt;안녕하세요.&lt;/p&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" shortcut="NONE" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

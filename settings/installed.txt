@@ -1,0 +1,9 @@
+Lombook Plugin
+com.intellij.plugins.html.instantEditing
+com.mallowigi
+com.tylerthrailkill.intellij.solarized
+com.vermouthx.idea
+jms-messenger
+org.intellij.plugin.jojoldu.translator
+org.intellij.scala
+zielu.gittoolbox

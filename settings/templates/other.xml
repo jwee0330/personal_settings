@@ -1,0 +1,12 @@
+<templateSet group="other">
+  <template name="ent" value="@Getter&#10;@NoArgsConstructor(access = AccessLevel.PROTECTED)&#10;@Entity" description="Entity Class Header" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lomb" value="@Builder @AllArgsConstructor @NoArgsConstructor&#10;@Getter @Setter @EqualsAndHashCode(of=&quot;id&quot;)" description="lombok annotation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
